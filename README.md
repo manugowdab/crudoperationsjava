@@ -46,7 +46,7 @@ This project is a simple web application for managing student information. It fe
    
 2. Run the application by navigating to the index and selecting "Run on Server".
    
-3. Access the application through ([http://localhost:8080/student1/regis.html](https://github.com/user-attachments/assets/0f46cbd3-2fbd-4731-8ed8-c912c7c506f3))
+3. Access the application through ![Screenshot 2024-07-20 200945](https://github.com/user-attachments/assets/0f46cbd3-2fbd-4731-8ed8-c912c7c506f3);
    
 4. Log in using your credentials on the prompted login page.(ex: login id= "test@sunbasedata.com", password="Test@123")
    
