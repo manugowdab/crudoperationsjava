@@ -59,11 +59,6 @@ This project is a simple web application for managing student information. It fe
 7. Edit the details of an existing sutdent by clicking the "Edit" link next to the customer's information.
 8. Delete a student by clicking the "Delete" link .
 
-## Demo Video
 
-
-[https://github.com/guddukrp/Sunbase/assets/91307403/ec2d5386-f4e7-4080-9ed5-d8337faa7227
-](https://github.com/guddukrp/SunbaseProject/assets/91307403/c6a1d670-3444-4598-bc81-0a0535f303e1
-)
 
 
