@@ -1,17 +1,15 @@
 # crudoperationsjava
 
-# Sunbase Project 
+# CRUD Student Management system 
 
-This project is a simple web application for managing customer information. It fetch Customer Details data using API and Store in Local Database. It allows users to view a list of customers, add new customers, edit existing customer details, delete customers and search for customers based on various criteria like firstname, city, email and phone no.
+This project is a simple web application for managing student information. It fetch student data and Store in Local Database. It allows users to view a list of students, add new student, edit existing student details, delete student.
 
 ## Features
 
-- **Customer List**: View a list of all customers with their details such as first name, last name, address, email, and phone number.
-- **Add Customer**: Add a new customer to the system by providing their details.
-- **Edit Customer**: Modify existing customer information.
-- **Delete Customer**: Remove a customer from the system.
-- **Search**: Search for customers by first name, city, email, or phone number.
-- **Pagination**: Navigate through the customer list using pagination controls.
+- **students List**: View a list of all Students with their details such as name, dob, address, email, and phone number.
+- **Add Students**: Add a new student to the system by providing their details.
+- **Edit student**: Modify existing customer information.
+- **Delete student**: Remove a student from the system.
 
 ## Technologies Used
 
@@ -44,9 +42,9 @@ This project is a simple web application for managing customer information. It f
 
 **To run this project locally, follow these steps**:
    
-1. Download the SunbaseProject and import it into Eclipse IDE.
+1. Download the CRUD Student Management system and import it into Eclipse IDE.
    
-2. Run the application by navigating to the index.jsp file and selecting "Run on Server".
+2. Run the application by navigating to the index and selecting "Run on Server".
    
 3. Access the application through [http://localhost:8080/SunbaseProject/index.jsp](http://localhost:8080/SunbaseProject/index.jsp)
    
