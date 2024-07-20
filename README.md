@@ -50,10 +50,10 @@ This project is a simple web application for managing student information. It fe
    
 4. Log in using your credentials on the prompted login page.(ex: login id= "test@sunbasedata.com", password="Test@123")
    
-  ![page1](https://github.com/guddukrp/SunbaseProject/assets/91307403/ff43efdf-a537-4884-b89f-b2472b8f6524)
+  ![page1]![Screenshot 2024-07-20 200945](https://github.com/user-attachments/assets/0f46cbd3-2fbd-4731-8ed8-c912c7c506f3)
 5. View the customer list upon successful login.
    
-  ![page2](https://github.com/guddukrp/SunbaseProject/assets/91307403/72d3c0ac-7568-41a9-bbf2-57b15d292e36)
+  ![page2]
 6. Click the "Sync" button to fetch the latest customer data from an API and store it locally.
     
   ![page3](https://github.com/guddukrp/SunbaseProject/assets/91307403/2c53af06-f020-46e1-98a7-f35e28c8dc51)
