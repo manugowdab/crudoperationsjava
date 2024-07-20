@@ -48,25 +48,19 @@ This project is a simple web application for managing student information. It fe
    
 3. Access the application through [http://localhost:8080/SunbaseProject/index.jsp](http://localhost:8080/SunbaseProject/index.jsp)
    
-4. Log in using your credentials on the prompted login page.(ex: login id= "test@sunbasedata.com", password="Test@123")
-   
   ![page1]![Screenshot 2024-07-20 200945](https://github.com/user-attachments/assets/0f46cbd3-2fbd-4731-8ed8-c912c7c506f3)
-5. View the customer list upon successful login.
+4. View the student list upon successful login.
    
   ![page2]
-6. Click the "Sync" button to fetch the latest customer data from an API and store it locally.
+5. Click the "Sync" button to fetch the latest student data and store it locally.
     
-  ![page3](https://github.com/guddukrp/SunbaseProject/assets/91307403/2c53af06-f020-46e1-98a7-f35e28c8dc51)
-7. Add a new customer by clicking the "Add Customer" button and filling out the provided form.
-   
-  ![page4](https://github.com/guddukrp/SunbaseProject/assets/91307403/af2c0b68-417f-4ac6-a053-3b2650825c31)
-8. Edit the details of an existing customer by clicking the "Edit" link next to the customer's information.
+6. Add a new customer by clicking the "Add student" button and filling out the provided form.
+
+7. Edit the details of an existing sutdent by clicking the "Edit" link next to the customer's information.
+8. 
+9. Delete a student by clicking the "Delete" link .
     
-  ![page5](https://github.com/guddukrp/SunbaseProject/assets/91307403/3c6d7ac9-6b36-4340-8a0d-4b2e0176585d)
-9. Delete a customer by clicking the "Delete" link .
-    
-  ![page2](https://github.com/guddukrp/SunbaseProject/assets/91307403/72d3c0ac-7568-41a9-bbf2-57b15d292e36)
-10. Logout from Application by clicking logout..
+
 
 
 ## Demo Video
