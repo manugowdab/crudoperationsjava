@@ -46,7 +46,7 @@ This project is a simple web application for managing student information. It fe
    
 2. Run the application by navigating to the index and selecting "Run on Server".
    
-3. Access the application through [http://localhost:8080/SunbaseProject/index.jsp](http://localhost:8080/SunbaseProject/index.jsp)
+3. Access the application through [http://localhost:8080/student1/regis.html](http://localhost:8080/student1/regis.html)
    
 4. Log in using your credentials on the prompted login page.(ex: login id= "test@sunbasedata.com", password="Test@123")
    
