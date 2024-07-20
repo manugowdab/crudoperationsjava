@@ -25,22 +25,21 @@ This project is a simple web application for managing customer information. It f
 
 1. **Create Local Database**:
     ```sql
-    CREATE DATABASE sunbase;
+    CREATE DATABASE studentdatabase;
     ```
 
 2. **Create Customer Table**:
     ```sql
-    CREATE TABLE customer (
-        cid VARCHAR(45) PRIMARY KEY,
-        fname VARCHAR(45),
-        lname VARCHAR(45),
-        street VARCHAR(45),
-        address VARCHAR(45),
-        city VARCHAR(20),
-        state VARCHAR(20),
-        email VARCHAR(45),
-        phone VARCHAR(20)
-    );
+   CREATE TABLE student (
+   `id` INT NOT NULL,
+   `name` VARCHAR(45) NOT NULL,
+   `dob` VARCHAR(45) NOT NULL,
+   `email` VARCHAR(45) NOT NULL,
+   `age` INT NOT NULL,
+   `phone` BIGINT(10) NOT NULL,
+   `address` VARCHAR(45) NOT NULL,
+   PRIMARY KEY (`id`),
+   UNIQUE INDEX `id_UNIQUE` (`id` ASC) VISIBLE);
     ```
 
 **To run this project locally, follow these steps**:
