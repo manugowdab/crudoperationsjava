@@ -39,7 +39,7 @@ This project is a simple web application for managing customer information. It f
    `phone` BIGINT(10) NOT NULL,
    `address` VARCHAR(45) NOT NULL,
    PRIMARY KEY (`id`),
-   UNIQUE INDEX `id_UNIQUE` (`id` ASC) VISIBLE);
+UNIQUE INDEX `id_UNIQUE` (`id` ASC) VISIBLE);
     ```
 
 **To run this project locally, follow these steps**:
