@@ -57,11 +57,7 @@ This project is a simple web application for managing student information. It fe
 6. Add a new customer by clicking the "Insert" button and filling out the provided form.
 
 7. Edit the details of an existing sutdent by clicking the "Edit" link next to the customer's information.
-8. 
-9. Delete a student by clicking the "Delete" link .
-    
-
-
+8. Delete a student by clicking the "Delete" link .
 
 ## Demo Video
 
