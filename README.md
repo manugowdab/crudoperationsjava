@@ -164,7 +164,6 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
-
 public class Student_imp implements student{
 	String url="jdbc:mysql://127.0.0.1:3306/studentdatabase";
 	String un="root";
