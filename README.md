@@ -142,7 +142,7 @@ public class student_mod {
 	}
 }
 
-   2. student.java(Interface of Data Access object)
+2. student.java(Interface of Data Access object)
 
 
 import java.util.List;
@@ -152,7 +152,6 @@ public interface student {
 	int deletestudent(int id);
 	List<student_mod> getAllstudent();
 }
-
 
 3. Student_imp.java(implemention of Data Access object)
 
@@ -272,7 +271,6 @@ public class Student_imp implements student{
 }
 
 
-   
 4. studentdetails.java(Server connection and business logic):
 
 
@@ -411,9 +409,10 @@ HTML code:
 </html>
 
 
+
 CSS code:
 
-@charset "UTF-8";
+
 * body {
     background: #222D32;
     font-family: 'Roboto', sans-serif;
@@ -432,12 +431,11 @@ form .login-key
     background-color: aliceblue;
 }
 div.login{
-    text-shadow: 2px 2px 4px#3bde5e;        
+    text-shadow: 2px 2px 4px#3bde5e;
     color: azure;
     padding-top: 20px;
     padding-left: 225px;
 }
-
 div.details
 {
     padding-left: 50px;
@@ -447,7 +445,6 @@ div.details
     font-size: 10px;
     box-shadow: 0 0 0;
 }
-
 .details input
 {
     padding-top: 10px;
