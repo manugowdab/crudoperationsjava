@@ -64,8 +64,8 @@ Project Structure:
 
 -student1/src/main/java/studentfolder
 
-**student_mod.java(Model Class)
-   --(package studentfolder
+1. student_mod.java(Model Class)
+   
 public class student_mod {
 	private int id;
 	private String name;	
@@ -142,23 +142,22 @@ public class student_mod {
 				+ email + ", age=" + age +", phone="+ phone + ", address=" + address  + "]";	
 	}
 }
-)
 
-   **student.java(Interface of Data Access object)
 
-   (package studentfolder;
+   2. student.java(Interface of Data Access object)
+
+
 import java.util.List;
 public interface student {
 	int addstudent(student_mod student);
 	int updatestudent(student_mod student);
 	int deletestudent(int id);
 	List<student_mod> getAllstudent();
-})
+}
 
 
-**Student_imp.java(implemention of Data Access object)
+3. Student_imp.java(implemention of Data Access object)
 
-   (package studentfolder;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -273,18 +272,15 @@ public class Student_imp implements student{
 		return al;
 	}
 }
-)
+
 
    
-**studentdetails.java(Server connection and business logic):
-(
-package studentfolder;
+4. studentdetails.java(Server connection and business logic):
+
 
 import java.io.IOException;
 import java.io.PrintWriter;
-
 import java.util.List;
-
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -379,4 +375,118 @@ public class studentdetails extends HttpServlet {
 	}
 }
 
-)
+
+
+HTML code:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="regi.css">
+    <title>register page</title>
+</head>
+<body>
+     <form action="studentdetails" method="post">  
+        <div class="login">
+            <div class="admin"><h1>REGISTER</h1></div>
+        </div>
+        <br>
+        <div class="details">
+            Stud_Id : <br> <input type="number" name="id" required><br><br>	
+            NAME : <br> <input type="text" name="name" required><br><br>
+            DOB  : <br> <input type="date" name="dob" required><br><br>
+            EMAIL : <br> <input type="email" name="email"  required pattern="[^ @]+@[^ @]+.[a-z]{2,}"> <br><br>
+            PHONE : <br> <input type="number" name="phone"  required pattern="[6-9]{1}[0-9]{9}"> <br><br>
+            AGE : <br> <input type="number" name="age" required><br><br>
+            ADDRESS : <br> <input type="text" name="address"  required> <br><br>
+        </div>
+        <div class="submit">
+           <button name="action" value="insert">Insert</button>
+	       <button name="action" value="retrive">View</button>
+	       <button name="action" value="update">Edit</button>
+	       <button name="action" value="delete">Delete</button>
+        </div>
+     </form>
+</body>
+</html>
+
+
+CSS code:
+
+@charset "UTF-8";
+* body {
+    background: #222D32;
+    font-family: 'Roboto', sans-serif;
+}
+form
+{
+    background-color: #1A2226;
+    margin-top: 100px;
+    margin-left: 300px;
+    width: 50%;
+    height: 700px ;	
+    border-radius: 10px;
+}
+form .login-key
+{
+    background-color: aliceblue;
+}
+div.login{
+    text-shadow: 2px 2px 4px#3bde5e;        
+    color: azure;
+    padding-top: 20px;
+    padding-left: 225px;
+}
+
+div.details
+{
+    padding-left: 50px;
+    color: #6C6C6C;
+    letter-spacing: 1px;    
+    font-weight: bold;
+    font-size: 10px;
+    box-shadow: 0 0 0;
+}
+
+.details input
+{
+    padding-top: 10px;
+    background-color: #1A2226;
+    color: aliceblue;
+    font-size: 20px;
+    outline: 0px;
+    border: none;
+    border-bottom: 2px solid aqua;
+    width: 500px;
+    padding-bottom: 5px;
+}
+.submit
+{
+    background-color: #1A2226;
+    display: flex;
+    padding-Left:15px;
+}
+.submit button
+{
+    margin-top: 30px;
+    margin-left: 35px;
+    border-color: #0cbbe2;
+    background-color: #1A2226;
+    height: 30px;
+    width: 100px;
+    color: #0cbbe2;
+    border-radius: 2px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+.submit button:hover {
+    background-color: #0DB8DE;
+    color: white;
+    right: 0px;
+}
+
+
+
