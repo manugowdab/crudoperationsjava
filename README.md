@@ -138,11 +138,9 @@ public class student_mod {
 	@Override
 	public String toString()
 	{
-		return "student_mod [id=" + id + ", name=" + name + ", dob=" + dob + ", email="
-				+ email + ", age=" + age +", phone="+ phone + ", address=" + address  + "]";	
+		return "student_mod [id=" + id + ", name=" + name + ", dob=" + dob + ", email="+ email + ", age=" + age +", phone="+ phone + ", address=" + address + "]";	
 	}
 }
-
 
    2. student.java(Interface of Data Access object)
 
