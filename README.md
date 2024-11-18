@@ -61,6 +61,9 @@ This project is a simple web application for managing student information. It fe
 Above java code order:
 
 Project Structure:
+
+-student1/src/main/java/studentfolder
+
  - student_mod.java(Model Class)
  - student.java(Interface of Data Access object)
  - Student_imp.java(implemention of Data Access object)
