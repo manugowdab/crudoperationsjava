@@ -2,14 +2,14 @@
 
 This project is a simple web application for managing student information. It fetch student data and Store in Local Database. It allows users to view a list of students, add new student, edit existing student details, delete student.
 
-!! Features
+## Features
 
 - *students List*: View a list of all Students with their details such as name, dob, address, email, and phone number.
 - *Add Students*: Add a new student to the system by providing their details.
 - *Edit student*: Modify existing customer information.
 - *Delete student*: Remove a student from the system.
 
-!! Technologies Used
+## Technologies Used
 
 - *Java*: Backend logic is implemented using Java.
 - *Servlets*: Handle HTTP requests and responses.
@@ -17,14 +17,14 @@ This project is a simple web application for managing student information. It fe
 - *MySQL Database*: Store customer information.
 - *Tomcat Server*: Used as the servlet container to deploy the application.
 
-!! Getting Started
+## Getting Started
 
-1. Create Local Database*:
+1. *Create Local Database*:
     sql
     CREATE DATABASE studentdatabase;
     
 
-2. Create Customer Table*:
+2. *Create Customer Table*:
     sql
    CREATE TABLE student (
    `id` INT NOT NULL,
