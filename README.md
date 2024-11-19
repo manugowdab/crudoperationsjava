@@ -65,6 +65,7 @@ Project Structure:
 -student1/src/main/java/studentfolder
 
 1. student_mod.java(Model Class)
+   
    ![Screenshot 2024-11-19 095032](https://github.com/user-attachments/assets/5c1c6c77-94ee-4844-9476-3eb924d56c3e)
    ![Screenshot 2024-11-19 095136](https://github.com/user-attachments/assets/f1f974cd-a4a9-4eee-a5a4-8416bb0207f1)
 
@@ -145,7 +146,8 @@ public class student_mod {
 }
 
 2. student.java(Interface of Data Access object)
-   ![Screenshot 2024-11-19 095519](https://github.com/user-attachments/assets/804d1278-4f2a-4367-bd39-ee60e4478963)
+
+    ![Screenshot 2024-11-19 095519](https://github.com/user-attachments/assets/804d1278-4f2a-4367-bd39-ee60e4478963)
 
 
 import java.util.List;
@@ -157,8 +159,11 @@ public interface student {
 }
 
 3. Student_imp.java(implemention of Data Access object)
+   
    ![Screenshot 2024-11-19 100127](https://github.com/user-attachments/assets/88e03f05-651e-4778-959a-ac27e9b0cab9)
    ![Screenshot 2024-11-19 100226](https://github.com/user-attachments/assets/c051d42d-cf8e-44d5-9540-6045c9fe70e7)
+   ![Screenshot 2024-11-19 100422](https://github.com/user-attachments/assets/9c5fd15a-7b1d-40c5-bf2d-f2d810bf685d)
+
 
 
 import java.sql.Connection;
@@ -277,6 +282,10 @@ public class Student_imp implements student{
 
 4. studentdetails.java(Server connection and business logic):
 
+![Screenshot 2024-11-19 100731](https://github.com/user-attachments/assets/fb52846b-7e58-4619-9b16-b03e53bf0647)
+![Screenshot 2024-11-19 100801](https://github.com/user-attachments/assets/26367135-2a10-4e6b-badc-7b52bd7a7904)
+![Screenshot 2024-11-19 100817](https://github.com/user-attachments/assets/dbf8f9cd-dd72-4e11-99af-3bb397385499)
+
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -375,46 +384,23 @@ public class studentdetails extends HttpServlet {
 	}
 }
 
+web.xml:
+
+![Screenshot 2024-11-19 101114](https://github.com/user-attachments/assets/d6b3da30-d36a-4c3c-898d-986da6792529)
+
 
 
 HTML code:
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="regi.css">
-    <title>register page</title>
-</head>
-<body>
-     <form action="studentdetails" method="post">  
-        <div class="login">
-            <div class="admin"><h1>REGISTER</h1></div>
-        </div>
-        <br>
-        <div class="details">
-            Stud_Id : <br> <input type="number" name="id" required><br><br>	
-            NAME : <br> <input type="text" name="name" required><br><br>
-            DOB  : <br> <input type="date" name="dob" required><br><br>
-            EMAIL : <br> <input type="email" name="email"  required pattern="[^ @]+@[^ @]+.[a-z]{2,}"> <br><br>
-            PHONE : <br> <input type="number" name="phone"  required pattern="[6-9]{1}[0-9]{9}"> <br><br>
-            AGE : <br> <input type="number" name="age" required><br><br>
-            ADDRESS : <br> <input type="text" name="address"  required> <br><br>
-        </div>
-        <div class="submit">
-           <button name="action" value="insert">Insert</button>
-	       <button name="action" value="retrive">View</button>
-	       <button name="action" value="update">Edit</button>
-	       <button name="action" value="delete">Delete</button>
-        </div>
-     </form>
-</body>
-</html>
+![Screenshot 2024-11-19 101143](https://github.com/user-attachments/assets/bd234755-6543-4d51-82c2-984979549af4)
 
-
+ 
 
 CSS code:
+
+![Screenshot 2024-11-19 101223](https://github.com/user-attachments/assets/79ae3928-55da-48e0-909a-507d0a9774cf)
+![Screenshot 2024-11-19 101251](https://github.com/user-attachments/assets/1e234920-be79-4922-acdb-cad78021f32d)
+
 
 
 * body {
