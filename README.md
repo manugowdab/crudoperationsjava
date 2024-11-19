@@ -145,6 +145,7 @@ public class student_mod {
 }
 
 2. student.java(Interface of Data Access object)
+   ![Screenshot 2024-11-19 095519](https://github.com/user-attachments/assets/804d1278-4f2a-4367-bd39-ee60e4478963)
 
 
 import java.util.List;
@@ -156,6 +157,8 @@ public interface student {
 }
 
 3. Student_imp.java(implemention of Data Access object)
+   ![Screenshot 2024-11-19 100127](https://github.com/user-attachments/assets/88e03f05-651e-4778-959a-ac27e9b0cab9)
+   ![Screenshot 2024-11-19 100226](https://github.com/user-attachments/assets/c051d42d-cf8e-44d5-9540-6045c9fe70e7)
 
 
 import java.sql.Connection;
