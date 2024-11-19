@@ -46,10 +46,10 @@ This project is a simple web application for managing student information. It fe
    
 3. Access the application through [http://localhost:8080/SunbaseProject/index.jsp](http://localhost:8080/student1/regis.html)]
    
-  ![page1]![Screenshot 2024-07-20 200945](https://github.com/user-attachments/assets/0f46cbd3-2fbd-4731-8ed8-c912c7c506f3)
+  [page1]![Screenshot 2024-07-20 200945](https://github.com/user-attachments/assets/0f46cbd3-2fbd-4731-8ed8-c912c7c506f3)
 4. View the student list by clicking the "view".
    
-  ![page2] ![Screenshot 2024-07-20 202402](https://github.com/user-attachments/assets/86a9c0cd-857e-43b9-8040-75160ee5bba6)
+  [page2] ![Screenshot 2024-07-20 202402](https://github.com/user-attachments/assets/86a9c0cd-857e-43b9-8040-75160ee5bba6)
 5. Click the "veiw" button to fetch the latest student data and store it locally.
     
 6. Add a new customer by clicking the "Insert" button and filling out the provided form.
