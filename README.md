@@ -65,7 +65,9 @@ Project Structure:
 -student1/src/main/java/studentfolder
 
 1. student_mod.java(Model Class)
-   
+   ![Screenshot 2024-11-19 095032](https://github.com/user-attachments/assets/5c1c6c77-94ee-4844-9476-3eb924d56c3e)
+   ![Screenshot 2024-11-19 095136](https://github.com/user-attachments/assets/f1f974cd-a4a9-4eee-a5a4-8416bb0207f1)
+
 public class student_mod {
 	private int id;
 	private String name;	
